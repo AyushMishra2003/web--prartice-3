@@ -30,6 +30,7 @@ header{
     justify-content: space-around;
     width: 100vw;
     gap: 17rem;
+   padding: 1rem;
 }
 nav{
     display: flex;
@@ -49,4 +50,29 @@ a:hover{
 }
 .Schedulevisit:hover{
     color: cadetblue;
+}
+
+/* MAIN - CSS */
+main{
+    background-image: url(./IMAGE/image1.jpeg);
+    background-position: center;
+    background-size: cover;
+    width: 100vw;
+    height: 100vh;
+}
+.main-content{
+    display: flex;
+    flex-direction: column;
+    width: fit-content;
+    align-self: flex-end;
+    margin: 10rem 10rem;
+}
+.canada{
+    width: fit-content;
+    padding: 0.2rem 0.2rem;
+}
+.mainheading{
+    color:olivedrab;
+    font-weight: 700;
+    font-size: 3rem;
 }
