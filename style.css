@@ -9,6 +9,7 @@ body{
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    gap: 2rem;
     overflow-x: hidden;
     width: 100vw;
 }
@@ -31,7 +32,7 @@ header{
     justify-content: space-around;
     width: 100vw;
     gap: 17rem;
-   padding: 1rem;
+    padding: 1rem;
 }
 nav{
     display: flex;
@@ -50,7 +51,7 @@ a:hover{
     color: white;
 }
 .Schedulevisit:hover{
-    color: cadetblue;
+    background-color: red;
 }
 
 /* MAIN - CSS */
@@ -59,8 +60,6 @@ main{
     background-position: center;
     background-size: cover;
     width: 100vw;
-    height: 100vh;
-  
 }
 .main-content{
     display: flex;
@@ -85,7 +84,6 @@ main{
     align-items: flex-start;
     justify-content:center;
     width: 100vw;
-    padding-top: 3rem;
     gap: 2rem;
     /* height: 100vh; */
     /* border: 2px solid red; */
@@ -252,8 +250,8 @@ main{
     justify-content: space-between;
     align-items: flex-end;
     padding-top: 4rem;
-    padding-left: 7.5rem;
-    padding-right: 15rem; 
+    padding-left: 2.5rem;
+    padding-right: 16rem; 
 }
 .child1sec3top p{
      color: red;
@@ -276,18 +274,19 @@ main{
     padding-top: 2rem;
     display: flex;
     justify-content: center;
-    gap: 1rem;
-    align-items: center;
+    gap: 3rem;
+    align-items: flex-start;
+    /* border: 2px solid red; */
 }
 .child1sec3bottom{
     /* border: 2px solid green; */
     display: flex;
     flex-direction: column;
     gap: 2rem;
-    width: 15rem;
+    width: 14rem;
 }
 .child2sec3bottom img{
-    width: 30rem;
+    width: 35rem;
 }
 .subchildsec3bottom{
     display: flex;
@@ -297,10 +296,9 @@ main{
 }
 
 .child3sec3bottom{
-    width: 30rem;
+    width: 25rem;
     display: flex;
     flex-direction: column;
-    align-self: flex-end;
     gap: 2rem;
     /* border: 2px solid red; */
 }
@@ -314,4 +312,154 @@ main{
 }
 .visit:hover{
     background-color: red;
+}
+
+/* SECTION-4 */
+.section4{
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 4rem;
+}
+.sec4text{
+    text-align: center;
+
+}
+.property{
+    color: red;
+    font-size: 600;
+}
+.sec4card{
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+}
+.sec4card1{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+.sec4card1 img{
+    width: 20rem;
+}
+.scard1 img{ 
+    height: 15rem;
+}
+.scard2 img{
+    height: 15rem;
+}
+.scard3 img{
+    width: 22.5rem;
+}
+.subsec4card{
+    display: flex;
+    justify-content: space-between;
+}
+.luxry{
+    padding: 0.5rem 1rem;
+    background-color:wheat;
+    border: none;
+    font-style: 600;
+}
+.rupee{
+    color: red;
+    font-weight: 800;
+}
+.Street{
+    font-weight: 800;
+}
+.bathrromsub{
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    font-weight: 600;
+}
+.subbathrromsub1{
+    display: flex;
+    gap: 2rem;
+}
+.subbathrromsub2{
+    display: flex;
+    gap: 1rem;
+}
+.bsec4{
+    align-self: center;
+}
+/* FOTTER */
+footer{
+    width: 100vw;
+    position: relative;
+}
+.footbgcimage{
+    background-image: url(./IMAGE/lastimage.jpeg);
+    background-position: center;
+    background-position: center;
+    background-size: cover;
+    /* width: 100vw;
+    height: 100vh; */
+    width: 85rem;
+    height: 30rem;
+    filter: blur(6px);
+}
+.map{
+    position: absolute;
+    top: 50%;
+    left: 7%;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    /* align-items: center;
+    justify-content: center; */
+}
+.mapbutton{
+    display: flex;
+    justify-content:center;
+    gap: 2rem;
+}
+.call{
+    padding: 0.8rem 2.5rem;
+    font-size: 1rem;
+}
+.call:hover{
+    background-color: red;
+
+}
+.message{
+    padding: 1rem 1rem;
+}
+.message:hover{
+    background-color: red;
+}
+.fa-phone-volume{
+    font-size: 1rem;
+    color: red;
+}
+.fa-envelope{
+    color: red;
+    font-size: 1rem;
+}
+.form{
+    position: absolute;
+    left: 40%;
+    top: 50%;
+    border: 2px solid red;
+    width: 30rem;
+    height: 25rem;
+    border: 2px solid wheat;
+    border-radius: 1rem;
+}
+input{
+    width: 28rem;
+    padding: 0.5rem;
+    border: none;
+    border-radius: 1rem;
+    background-color:darkgray;
+    color: red;
+    font-style: 200;
+
+}
+textarea{
+    background-color:rgb(212, 243, 244);
 }
